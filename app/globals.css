@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+.icon{
+    color: rgb(0, 255, 0);
+}
+h1{
+    color: rgb(0, 255, 0);
+}
+h2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(0, 255, 0);
+}
+span{
+    color: rgb(0, 255, 0);
+}
+hr{
+    background-color: rgb(0, 255, 0);
+    border: none;
+    height: 1px;
+}
