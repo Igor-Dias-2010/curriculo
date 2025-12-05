@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Mail, Phone, MapPin, MapPinCheck, Linkedin } from 'lucide-react'
 export default function Home() {
     return (
-        <div>
+        <div className='main'>
             <h1>Igor da Silva Dias</h1>
             <div className='contact'>
                 <Mail className='icon' />
@@ -12,19 +12,18 @@ export default function Home() {
             </div>
             <div className='contact'>
                 <Phone className='icon' />
-                (48) 9186-6532
+                <span>(48) 9186-6532</span>
             </div>
             <div className='contact'>
                 <MapPin className='icon' />
-                Florianópolis/Santa Catarina
+                <span>Florianópolis/Santa Catarina</span>
             </div>
             <div className='contact'>
                 <Linkedin className='icon' />
                 <Link href={'https://www.linkedin.com/in/igor-dias-4a0791356/'} target='_blank'>LinkedIn</Link>
-
             </div>
             <hr />
-
+            <p>Busco uma oportunidade em desenvolvimento de software</p>
         </div>
     )
 }
