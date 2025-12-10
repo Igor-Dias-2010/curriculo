@@ -106,5 +106,6 @@ ul{
 @media (max-width: 412px){
     ul{
         width: 300px;
+        max-width: 100%;
     }
 }
