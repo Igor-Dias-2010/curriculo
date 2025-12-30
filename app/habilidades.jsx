@@ -10,6 +10,7 @@ export default function Habilidades() {
             <p>Uso frequente de Git e GitHub para versionamento e controle de código.</p>
             <p>Experiência com Linux (Zorin OS) para desenvolvimento e gerenciamento de ambiente.</p>
             <p>Inglês intermediário, comunicação básica, ler documentação, escrever textos e entender inglês falado em velocidade moderada.</p>
+            <p>Nível intermediário de Terminal (PowerShell e Bash/WSL), com uso para navegação, execução de scripts, versionamento e gerenciamento de ambientes.</p>
         </div>
     )
 }
