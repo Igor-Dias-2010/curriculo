@@ -1,12 +1,12 @@
 'use client'
 
-export default function CertificadoPython(){
-    return(
+export default function CertificadoPython() {
+    return (
         <div className="main">
             <h1>Curso de Python</h1>
             <p>RBCIP — 2025</p>
             <figure>
-                <img src="" alt="" url='public/'>
+                <img className="img" src="/img/certificado-python.jpeg" alt="certificado de python" />
             </figure>
         </div>
     )
