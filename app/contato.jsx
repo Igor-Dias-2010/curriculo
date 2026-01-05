@@ -7,23 +7,29 @@ export default function Contato() {
         <div>
             <div className='contact'>
                 <Mail className='icon' />
-                <Link href={'mailto:rogigor1712@gmail.com'}>rogigor1712@gmail.com</Link>
+                <span className='code'>
+                    <Link href={'mailto:rogigor1712@gmail.com'}>rogigor1712@gmail.com</Link>
+                </span>
             </div>
             <div className='contact'>
                 <Phone className='icon' />
-                <span>(48) 9186-6532</span>
+                <span className='code'>(48) 9186-6532</span>
             </div>
             <div className='contact'>
                 <MapPin className='icon' />
-                <span>Florianópolis/Santa Catarina</span>
+                <span className='code'>Florianópolis/Santa Catarina</span>
             </div>
             <div className='contact'>
                 <Linkedin className='icon' />
-                <Link href={'https://www.linkedin.com/in/igor-dias-4a0791356/'} target='_blank'>LinkedIn</Link>
+                <span className='code'>
+                    <Link href={'https://www.linkedin.com/in/igor-dias-4a0791356/'} target='_blank'>LinkedIn</Link>
+                </span>
             </div>
             <div className='contact'>
                 <Github className='icon' />
-                <Link href={'https://github.com/Igor-Dias-2010'} target='_blank'>Github</Link>
+                <span className='code'>
+                    <Link href={'https://github.com/Igor-Dias-2010'} target='_blank'>Github</Link>
+                </span>
             </div>
         </div>
     )
