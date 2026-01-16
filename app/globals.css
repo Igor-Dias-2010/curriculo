@@ -141,3 +141,7 @@ figure {
     border: 1px solid rgb(0, 255, 0);
     border-radius: 8px;
 }
+body::selection{
+    color: rgb(0, 255, 0);
+    background-color: rgb(54, 54, 54);
+}

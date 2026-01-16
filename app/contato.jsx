@@ -1,5 +1,5 @@
 'use client'
-import { Mail, Phone, MapPin, MapPinCheck, Linkedin, Github } from 'lucide-react'
+import { Mail, Phone, MapPin, MapPinCheck, Linkedin, Github, Globe } from 'lucide-react'
 import Link from 'next/link'
 
 export default function Contato() {
@@ -17,7 +17,7 @@ export default function Contato() {
             </div>
             <div className='contact'>
                 <MapPin className='icon' />
-                <span className='code'>Florianópolis/Santa Catarina</span>
+                <span className='code'>Florianópolis, SC — Brasil</span>
             </div>
             <div className='contact'>
                 <Linkedin className='icon' />
@@ -29,6 +29,12 @@ export default function Contato() {
                 <Github className='icon' />
                 <span className='code'>
                     <Link href={'https://github.com/Igor-Dias-2010'} target='_blank'>Github</Link>
+                </span>
+            </div>
+            <div className='contact'>
+                <Globe className='icon' />
+                <span className='code'>
+                    <Link href={'https://portfolio-sooty-alpha-87lizncs4o.vercel.app/'} target='_blank'>Portfólio</Link>
                 </span>
             </div>
         </div>
