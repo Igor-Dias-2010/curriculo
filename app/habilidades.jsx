@@ -3,7 +3,7 @@
 export default function Habilidades() {
     return (
         <div className="main">
-            <h2>Habilidades técnicas:</h2>
+            <h2>Habilidades Técnicas:</h2>
             <p>Domínio sólido de <span className="code">HTML</span>, <span className="code">CSS</span> e <span className="code">JavaScript</span>, capaz de desenvolver interfaces funcionais e responsivas.</p>
             <p>Experiência com <span className="code">Next.js</span>, incluindo criação de páginas, componentes reutilizáveis e aplicações funcionais.</p>
             <p>Conhecimento em <span className="code">React Hooks</span> <span className="code">(useState)</span> para gerenciamento de estado.</p>
