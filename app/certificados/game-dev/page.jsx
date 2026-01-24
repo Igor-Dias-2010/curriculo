@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 export default function CertificadoGameDev() {
     return (
@@ -5,7 +6,7 @@ export default function CertificadoGameDev() {
             <h1>Curso de Desenvolvimento de Jogos</h1>
             <p>RBCIP — 2025</p>
             <figure>
-                <img className="img" src="/img/certificado-game-dev.jpeg" alt="Certificado de Desenvolvimento de Jogos" />
+                <Image className="img" src="/img/certificado-game-dev.jpeg" alt="Certificado de Desenvolvimento de Jogos" width={400} height={542} />
             </figure>
         </div>
     )

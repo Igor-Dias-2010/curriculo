@@ -14,7 +14,7 @@ export default function Formacao() {
             <p>Programação — Escola Eliti (cursando)</p>
             <p>Introdução ao <span className="code">Python</span> — Carreta Digital RBCIP (finalizado em 2025) <Link href={"/certificados/python"} target="_blank" rel="noopener noreferrer"><Paperclip className="paperClip" size={15} /></Link></p>
             <p>Introdução ao <span className="code">Desenvolvimento de Jogos</span> — Carreta Digital RBCIP (finalizado em 2025) <Link href={"/certificados/game-dev"} target="_blank" rel="noopener noreferrer"><Paperclip className="paperclip" size={15} /></Link></p>
-            <p>Curso de <span className="code">Python</span> — Hashtag Programação (finalizado em 2026)</p>
+            <p>Curso de <span className="code">Python</span> — Hashtag Programação (finalizado em 2026) <Link href={"/certificados/python-hashtag"} target="_blank" rel="noopener noreferrer"><Paperclip className="paperClip" size={15} /></Link></p>
 
         </div>
     )
