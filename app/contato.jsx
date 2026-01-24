@@ -28,7 +28,7 @@ export default function Contato() {
             <div className='contact'>
                 <Github className='icon' />
                 <span className='code'>
-                    <Link href={'https://github.com/Igor-Dias-2010'} target='_blank'>Github</Link>
+                    <Link href={'https://github.com/Igor-Dias-2010'} target='_blank'>GitHub</Link>
                 </span>
             </div>
             <div className='contact'>
