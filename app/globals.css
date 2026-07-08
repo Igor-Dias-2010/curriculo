@@ -12,11 +12,13 @@ body {
 body {
     background-color: black;
     color: rgb(0, 255, 0);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:
+        "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .code {
-    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-family: "JetBrains Mono", "Fira Code", monospace;
     font-size: 17px;
     font-weight: 600;
 }
@@ -47,7 +49,7 @@ body {
 }
 
 h1 {
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -79,20 +81,23 @@ p {
 }
 
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
     background: rgb(0, 255, 0);
     border-radius: 4px;
     transition: background 0.3s;
+    cursor: grab;
 }
-
+::-webkit-scrollbar-thumb:active{
+    cursor: grabbing;
+}
 ::-webkit-scrollbar-thumb:hover {
     background: #00cc00;
 }
 
-@supports(scrollbar-width: thin) {
+@supports (scrollbar-width: thin) {
     body {
         scrollbar-width: thin;
         scrollbar-color: #00ff00 #1a1a1a;
@@ -101,7 +106,6 @@ p {
 
 body li:last-of-type {
     margin-bottom: 30px;
-
 }
 
 li {
@@ -133,7 +137,7 @@ figure {
     align-items: center;
     flex-direction: column;
 }
-.img-hashtag{
+.img-hashtag {
     width: auto;
     height: auto;
     border: 1px solid rgb(0, 255, 0);
@@ -146,7 +150,7 @@ figure {
     border: 1px solid rgb(0, 255, 0);
     border-radius: 8px;
 }
-body::selection{
+body::selection {
     color: rgb(0, 255, 0);
     background-color: rgb(54, 54, 54);
 }
