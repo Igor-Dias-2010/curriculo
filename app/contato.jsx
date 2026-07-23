@@ -50,7 +50,7 @@ export default function Contato() {
                 <span className="code">
                     <Link
                         href={
-                            "https://portfolio-sooty-alpha-87lizncs4o.vercel.app/"
+                            "https://portfolio-igor-dias.vercel.app/"
                         }
                         target="_blank"
                     >
